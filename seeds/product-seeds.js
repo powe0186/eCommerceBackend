@@ -31,6 +31,12 @@ const productData = [
     stock: 22,
     category_id: 2,
   },
+  {
+    product_name: 'No Fear T-Shirt',
+    price: 29.99,
+    stock: 40,
+    category_id: 1,
+  },
 ];
 
 const seedProducts = () => Product.bulkCreate(productData);
